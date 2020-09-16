@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3562c21e-a399-43a2-9410-ef6ace39a569" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h5Ia9AIdCfEZE0myVjTlLgLKrn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sample.jit" />
+      <recent name="org.sample" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2020\jmh\jvm-demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Inline">
+    <configuration name="Inline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sample.jit.Inline" />
+      <module name="jvm-demo" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockDiagnosticVMOptions  -XX:+PrintInlining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sample.jit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockRoach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.sample.LockRoach" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Inline" />
+        <item itemvalue="Application.LockRoach" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3562c21e-a399-43a2-9410-ef6ace39a569" name="Default Changelist" comment="" />
+      <created>1599294586918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599294586918</updated>
+      <workItem from="1599294589823" duration="7035000" />
+      <workItem from="1600006395869" duration="601000" />
+      <workItem from="1600264889052" duration="655000" />
+      <workItem from="1600266546902" duration="1357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="342" y="10" key="#Inline" timestamp="1600266633727">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="342" y="10" key="#Inline/0.0.1280.680@0.0.1280.680" timestamp="1600266633727" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599294799122">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1599294799122" />
+    <state x="386" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599295604871">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="386" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1599295604871" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1600266504678">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600266504678" />
+    <state width="1236" height="183" key="GridCell.Tab.0.bottom" timestamp="1600266635528">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600266635528" />
+    <state width="1236" height="183" key="GridCell.Tab.0.center" timestamp="1600266635528">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600266635528" />
+    <state width="1236" height="183" key="GridCell.Tab.0.left" timestamp="1600266635527">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600266635527" />
+    <state width="1236" height="183" key="GridCell.Tab.0.right" timestamp="1600266635528">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600266635528" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1600264889260">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600264889260" />
+  </component>
+</project>

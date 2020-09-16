@@ -1,0 +1,131 @@
+# WARNING: Unable to acquire the JMH lock (C:\Users\tanzl\AppData\Local\Temp\/jmh.lock): already taken by another JMH instance, ignored by user's request.
+# JMH version: 1.21
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: D:\tools\jre\bin\java.exe
+# VM options: -Djmh.ignoreLock=true
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.sample.MyBenchmark.testMethod
+
+# Run progress: 0.00% complete, ETA 00:08:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 2867832366.943 ops/s
+# Warmup Iteration   2: 2814944921.186 ops/s
+# Warmup Iteration   3: 2772780652.472 ops/s
+# Warmup Iteration   4: 2760380579.639 ops/s
+# Warmup Iteration   5: 2760249008.955 ops/s
+Iteration   1: 2822513795.158 ops/s
+Iteration   2: 2799096500.186 ops/s
+Iteration   3: 2827909912.467 ops/s
+Iteration   4: 2596163900.138 ops/s
+Iteration   5: 2513382597.088 ops/s
+
+# Run progress: 19.42% complete, ETA 00:06:56
+# Fork: 2 of 5
+# Warmup Iteration   1: 2491910971.471 ops/s
+# Warmup Iteration   2: 2567440688.757 ops/s
+# Warmup Iteration   3: 2644679357.089 ops/s
+# Warmup Iteration   4: 2586476922.650 ops/s
+# Warmup Iteration   5: 2658359047.589 ops/s
+Iteration   1: 2645328817.386 ops/s
+Iteration   2: 2604372112.459 ops/s
+Iteration   3: 2506658095.366 ops/s
+Iteration   4: 2693564290.188 ops/s
+Iteration   5: 2768477475.189 ops/s
+
+# Run progress: 38.83% complete, ETA 00:05:16
+# Fork: 3 of 5
+# Warmup Iteration   1: 2729667053.297 ops/s
+# Warmup Iteration   2: 2681073508.017 ops/s
+# Warmup Iteration   3: 2609226346.283 ops/s
+# Warmup Iteration   4: 2604131224.503 ops/s
+# Warmup Iteration   5: 2749682912.150 ops/s
+Iteration   1: 2582503329.836 ops/s
+Iteration   2: 2700226409.146 ops/s
+Iteration   3: 2740471152.299 ops/s
+Iteration   4: 2708072309.726 ops/s
+Iteration   5: 2647161102.886 ops/s
+
+# Run progress: 58.25% complete, ETA 00:03:35
+# Fork: 4 of 5
+# Warmup Iteration   1: 2593314828.797 ops/s
+# Warmup Iteration   2: 2638664572.242 ops/s
+# Warmup Iteration   3: 2781519862.202 ops/s
+# Warmup Iteration   4: 2711648752.003 ops/s
+# Warmup Iteration   5: 2616424061.680 ops/s
+Iteration   1: 2733362148.332 ops/s
+Iteration   2: 2618748014.921 ops/s
+Iteration   3: 2586979591.126 ops/s
+Iteration   4: 2420484791.880 ops/s
+Iteration   5: 2639340301.387 ops/s
+
+# Run progress: 77.67% complete, ETA 00:01:55
+# Fork: 5 of 5
+# Warmup Iteration   1: 2588713108.838 ops/s
+# Warmup Iteration   2: 2440819310.204 ops/s
+# Warmup Iteration   3: 2522267796.344 ops/s
+# Warmup Iteration   4: 2742594704.623 ops/s
+# Warmup Iteration   5: 3294194845.442 ops/s
+Iteration   1: 3248413556.047 ops/s
+Iteration   2: 3029084969.916 ops/s
+Iteration   3: 3056741537.427 ops/s
+Iteration   4: 3137343910.740 ops/s
+Iteration   5: 3052750908.340 ops/s
+
+
+Result "org.sample.MyBenchmark.testMethod":
+  2747166061.185 ±(99.9%) 157280525.850 ops/s [Average]
+  (min, avg, max) = (2420484791.880, 2747166061.185, 3248413556.047), stdev = 209965002.175
+  CI (99.9%): [2589885535.336, 2904446587.035] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: D:\tools\jre\bin\java.exe
+# VM options: -XX:-UseBiasedLocking -XX:LoopUnrollLimit=1 -Djmh.ignoreLock=true
+# Warmup: 10 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.LockRoach.test
+
+# Run progress: 97.09% complete, ETA 00:00:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 20231.313 ns/op
+# Warmup Iteration   2: 20142.903 ns/op
+# Warmup Iteration   3: 20247.772 ns/op
+# Warmup Iteration   4: 20255.433 ns/op
+# Warmup Iteration   5: 19911.770 ns/op
+# Warmup Iteration   6: 20204.804 ns/op
+# Warmup Iteration   7: 20105.965 ns/op
+# Warmup Iteration   8: 19972.622 ns/op
+# Warmup Iteration   9: 19951.350 ns/op
+# Warmup Iteration  10: 19987.015 ns/op
+Iteration   1: 20422.570 ns/op
+Iteration   2: 20168.778 ns/op
+Iteration   3: 20144.949 ns/op
+Iteration   4: 20276.208 ns/op
+Iteration   5: 20121.122 ns/op
+
+
+Result "org.sample.LockRoach.test":
+  20226.725 ±(99.9%) 479.405 ns/op [Average]
+  (min, avg, max) = (20121.122, 20226.725, 20422.570), stdev = 124.500
+  CI (99.9%): [19747.321, 20706.130] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:08:37
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                Mode  Cnt           Score           Error  Units
+MyBenchmark.testMethod  thrpt   25  2747166061.185 ± 157280525.850  ops/s
+LockRoach.test           avgt    5       20226.725 ±       479.405  ns/op
