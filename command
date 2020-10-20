@@ -2,6 +2,8 @@ java -jar -Djmh.ignoreLock=true target/benchmarks.jar
 
 java   -jar    -Djmh.ignoreLock=true target/benchmarks.jar  -prof perfasm:mergeMargin=1000
 
+java   -jar    -Djmh.ignoreLock=true target/benchmarks.jar -prof perfasm
+
 
 http://www.docin.com/p-1723951908.html
 
@@ -14,3 +16,6 @@ https://blog.csdn.net/hfmbook/article/details/70209150
 http://openjdk.java.net/projects/code-tools/jmh/
 
 https://shipilev.net/jvm/anatomy-quarks/1-lock-coarsening-for-loops/
+
+ 打包
+ mvn clean install

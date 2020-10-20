@@ -1,2 +1,3 @@
 JMH S 22 org.sample.MyBenchmark S 51 org.sample.generated.MyBenchmark_testMethod_jmhTest S 10 testMethod S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 31 org.sample.safepoint.EmptyBench S 61 org.sample.safepoint.generated.EmptyBench_emptyMethod_jmhTest S 11 emptyMethod S 11 AverageTime E A 1 1 1 E I 1 5 T 3 1 s E I 1 5 T 3 1 s E I 1 3 E E E L 1 19 jmh.ignoreLock=true E E U 11 NANOSECONDS E E 
 JMH S 20 org.sample.LockRoach S 43 org.sample.generated.LockRoach_test_jmhTest S 4 test S 11 AverageTime E A 1 1 1 E I 2 10 T 3 1 s E I 1 5 T 3 1 s E I 1 1 E E E L 2 21 -XX:-UseBiasedLocking 21 -XX:LoopUnrollLimit=1 E E U 11 NANOSECONDS E E 

@@ -1,2 +1,4 @@
-D:\2020\jmh\jvm-demo\src\main\java\org\sample\LockRoach.java
-D:\2020\jmh\jvm-demo\src\main\java\org\sample\MyBenchmark.java
+E:\2020\jvm\git\jvm-demo\src\main\java\org\sample\safepoint\EmptyBench.java
+E:\2020\jvm\git\jvm-demo\src\main\java\org\sample\MyBenchmark.java
+E:\2020\jvm\git\jvm-demo\src\main\java\org\sample\LockRoach.java
+E:\2020\jvm\git\jvm-demo\src\main\java\org\sample\jit\Inline.java
