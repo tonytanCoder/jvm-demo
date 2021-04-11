@@ -1,0 +1,90 @@
+  Last modified 2021-1-31; size 553 bytes
+  MD5 checksum 9841b76de883c9482544949336d611be
+  Compiled from "StackFrame.java"
+public class org.sample.rumtime.StackFrame
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #4.#24         // java/lang/Object."<init>":()V
+   #2 = Methodref          #3.#25         // org/sample/rumtime/StackFrame.add:(II)I
+   #3 = Class              #26            // org/sample/rumtime/StackFrame
+   #4 = Class              #27            // java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Utf8               Code
+   #8 = Utf8               LineNumberTable
+   #9 = Utf8               LocalVariableTable
+  #10 = Utf8               this
+  #11 = Utf8               Lorg/sample/rumtime/StackFrame;
+  #12 = Utf8               main
+  #13 = Utf8               ([Ljava/lang/String;)V
+  #14 = Utf8               args
+  #15 = Utf8               [Ljava/lang/String;
+  #16 = Utf8               add
+  #17 = Utf8               (II)I
+  #18 = Utf8               a
+  #19 = Utf8               I
+  #20 = Utf8               b
+  #21 = Utf8               c
+  #22 = Utf8               SourceFile
+  #23 = Utf8               StackFrame.java
+  #24 = NameAndType        #5:#6          // "<init>":()V
+  #25 = NameAndType        #16:#17        // add:(II)I
+  #26 = Utf8               org/sample/rumtime/StackFrame
+  #27 = Utf8               java/lang/Object
+{
+  public org.sample.rumtime.StackFrame();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lorg/sample/rumtime/StackFrame;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: iconst_1
+         1: iconst_2
+         2: invokestatic  #2                  // Method add:(II)I
+         5: pop
+         6: return
+      LineNumberTable:
+        line 5: 0
+        line 6: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  args   [Ljava/lang/String;
+
+  private static int add(int, int);
+    descriptor: (II)I
+    flags: ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=2, locals=3, args_size=2
+         0: iconst_0
+         1: istore_2
+         2: iload_0
+         3: iload_1
+         4: iadd
+         5: istore_2
+         6: iload_2
+         7: ireturn
+      LineNumberTable:
+        line 9: 0
+        line 10: 2
+        line 11: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       8     0     a   I
+            0       8     1     b   I
+            2       6     2     c   I
+}

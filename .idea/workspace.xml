@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3562c21e-a399-43a2-9410-ef6ace39a569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/safepoint/EmptyBench.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/hsdb/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/rumtime/ObjectCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/rumtime/ObjectCreatec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/rumtime/StackFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/rumtime/StackFramecalss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command" beforeDir="false" afterPath="$PROJECT_DIR$/command" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/benchmarks.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/benchmarks.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sample/LockRoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sample/LockRoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sample/generated/LockRoach_test_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sample/generated/LockRoach_test_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jvm-demo-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/jvm-demo-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../git-demo/JVM/Java" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -77,7 +70,7 @@
       <recent name="D:\2020\jmh\jvm-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Jmh.EmptyBench.emptyMethod">
+  <component name="RunManager" selected="Application.StringTest">
     <configuration name="Inline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sample.jit.Inline" />
       <module name="jvm-demo" />
@@ -107,6 +100,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sample.rumtime.StackFrame" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sample.rumtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sample.hsdb.StringTest" />
+      <module name="jvm-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sample.hsdb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmptyBench.emptyMethod" type="jmh-id" factoryName="Jmh" temporary="true" program-parameters="org.sample.safepoint.EmptyBench.emptyMethod" working-dir="E:\2020\jvm\git\jvm-demo" benchmark-type="METHOD" benchmark-class="org.sample.safepoint.EmptyBench">
       <module name="jvm-demo" />
       <method v="2">
@@ -116,11 +135,13 @@
     <list>
       <item itemvalue="Application.Inline" />
       <item itemvalue="Application.LockRoach" />
-      <item itemvalue="Jmh.EmptyBench.emptyMethod" />
+      <item itemvalue="Application.StackFrame" />
+      <item itemvalue="Application.StringTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jmh.EmptyBench.emptyMethod" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.StackFrame" />
         <item itemvalue="Application.Inline" />
         <item itemvalue="Application.LockRoach" />
       </list>
@@ -142,6 +163,17 @@
       <workItem from="1600266546902" duration="1357000" />
       <workItem from="1600867532854" duration="10434000" />
       <workItem from="1602213114963" duration="5727000" />
+      <workItem from="1612083479949" duration="6026000" />
+      <workItem from="1612188418577" duration="598000" />
+      <workItem from="1613867049569" duration="632000" />
+      <workItem from="1614265936412" duration="599000" />
+      <workItem from="1614499342121" duration="1194000" />
+      <workItem from="1614785074517" duration="608000" />
+      <workItem from="1614867007801" duration="796000" />
+      <workItem from="1614999594333" duration="5150000" />
+      <workItem from="1615103480146" duration="591000" />
+      <workItem from="1616924797844" duration="722000" />
+      <workItem from="1618110691910" duration="693000" />
     </task>
     <servers />
   </component>
@@ -161,59 +193,60 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="179" y="127" key="#EmptyBench.emptyMethod" timestamp="1602679018354">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="815" y="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612106875134">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="179" y="127" key="#EmptyBench.emptyMethod/0.0.1920.1050@0.0.1920.1050" timestamp="1602679018354" />
-    <state x="342" y="10" key="#Inline" timestamp="1600266633727">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="815" y="397" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2194.1194@0.0.2194.1194" timestamp="1612106875134" />
+    <state x="853" y="299" key="#xdebugger.evaluate" timestamp="1615024042677">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="342" y="10" key="#Inline/0.0.1280.680@0.0.1280.680" timestamp="1600266633727" />
-    <state x="128" y="310" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602679044220">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="853" y="299" key="#xdebugger.evaluate/0.0.2194.1194@0.0.2194.1194" timestamp="1615024042677" />
+    <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1612083808920">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1599294799122" />
-    <state x="128" y="310" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602679044220" />
-    <state x="386" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599295604871">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1612083808920" />
+    <state width="2150" height="409" key="GridCell.Tab.0.bottom" timestamp="1615103415241">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="386" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1599295604871" />
-    <state x="815" y="114" key="EnvironmentVariablesDialog" timestamp="1601260171318">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2150" height="409" key="GridCell.Tab.0.bottom/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415241" />
+    <state width="2150" height="409" key="GridCell.Tab.0.center" timestamp="1615103415241">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="815" y="114" key="EnvironmentVariablesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601260171318" />
-    <state x="632" y="148" key="FileChooserDialogImpl" timestamp="1601189747123">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2150" height="409" key="GridCell.Tab.0.center/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415240" />
+    <state width="2150" height="409" key="GridCell.Tab.0.left" timestamp="1615103415240">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600266504678" />
-    <state x="632" y="148" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601189747123" />
-    <state width="1876" height="252" key="GridCell.Tab.0.bottom" timestamp="1602678979977">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2150" height="409" key="GridCell.Tab.0.left/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415240" />
+    <state width="2150" height="409" key="GridCell.Tab.0.right" timestamp="1615103415241">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600266635528" />
-    <state width="1876" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602678979977" />
-    <state width="1876" height="252" key="GridCell.Tab.0.center" timestamp="1602678979977">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2150" height="409" key="GridCell.Tab.0.right/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415241" />
+    <state width="2150" height="409" key="GridCell.Tab.1.bottom" timestamp="1615103415241">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600266635528" />
-    <state width="1876" height="252" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602678979977" />
-    <state width="1876" height="252" key="GridCell.Tab.0.left" timestamp="1602678979977">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2150" height="409" key="GridCell.Tab.1.bottom/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415241" />
+    <state width="2150" height="409" key="GridCell.Tab.1.center" timestamp="1615103415241">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600266635527" />
-    <state width="1876" height="252" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602678979977" />
-    <state width="1876" height="252" key="GridCell.Tab.0.right" timestamp="1602678979977">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2150" height="409" key="GridCell.Tab.1.center/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415241" />
+    <state width="2150" height="409" key="GridCell.Tab.1.left" timestamp="1615103415241">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="1236" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600266635528" />
-    <state width="1876" height="252" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602678979977" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1601261179445">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2150" height="409" key="GridCell.Tab.1.left/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415241" />
+    <state width="2150" height="409" key="GridCell.Tab.1.right" timestamp="1615103415241">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601261179445" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1600264889260">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600264889260" />
+    <state width="2150" height="409" key="GridCell.Tab.1.right/0.0.2194.1194@0.0.2194.1194" timestamp="1615103415241" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sample/hsdb/StringTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

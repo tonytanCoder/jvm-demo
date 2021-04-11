@@ -3,4 +3,6 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
+dontinline,org/sample/LockRoach.test
+inline,org/sample/MyBenchmark.testMethod
 inline,org/sample/safepoint/EmptyBench.emptyMethod
